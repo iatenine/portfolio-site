@@ -1,0 +1,6 @@
+.full-height{
+	background-color: rgb(45, 45, 45);
+	background-size: 100px 50px;
+	background-size: cover;
+	overflow: hidden !important;
+}

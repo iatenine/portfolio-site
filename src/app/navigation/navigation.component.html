@@ -1,0 +1,7 @@
+<nav class="navbar background">
+<ul *ngFor = 'let i of links()' class="nav-bar">
+	<li class = 'link-item'>
+		<a href = '{{ i.href }}'>{{ i.text }}</a>
+	</li>
+</ul>
+</nav>

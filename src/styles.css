@@ -1,11 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
  @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-h1, h2, h3{
-    color: aliceblue;
+:root{
+    --bg-color: slategrey;
+    --text-color: aliceblue;
+    --hover-bg: #222;
+    --nav-bg-color: rgb(200,0,0);
+}
+
+#bg-element{
+	color: black;
+	position: fixed;
+	margin-left: 60%;
+	transform: scaleX(-1);
+	z-index: -100;
+}
+
+h1, h2, h3, li, p, #project-container{
+    color: var(--text-color);
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-style: italic;
 }
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: var(--text-color);
+}
+
+ul{
+	list-style: none;
+}
+
+.fa{
+    color: var(--text-color);
 }

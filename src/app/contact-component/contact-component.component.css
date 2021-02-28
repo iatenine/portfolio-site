@@ -3,3 +3,7 @@
     flex-direction: column;
     margin-left: 2em;
 }
+
+#bg-element{
+    margin-top: -5vh;
+}

@@ -1,27 +1,25 @@
 nav{
 	display: flex;
-	width: 100%;
-	background-color:slategrey;
+	width: 98.5%;
+	background-color: var(--nav-bg-color);
+	justify-content: flex-start;
 }
 
-.nav-bar {
+.links {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
   }
   
-  li {
-	float: left !important;
-  }
-  
   li a {
-	display: block;
+	display: inline-block;
 	text-align: center;
+	margin-right: auto;
 	padding: 14px 16px;
 	text-decoration: none;
   }
   
   li a:hover {
-	background-color: #222;
+	background-color: var(--hover-bg);
   }

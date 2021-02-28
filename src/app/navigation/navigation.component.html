@@ -1,7 +1,7 @@
-<nav class="navbar background">
-<ul *ngFor = 'let i of links()' class="nav-bar">
+<nav class="background">
+<ul *ngFor = 'let i of links()' class="links">
 	<li class = 'link-item'>
-		<a href = '{{ i.href }}'>{{ i.text }}</a>
+		<a routerLink = '{{ i.href }}'>{{ i.text }}</a>
 	</li>
 </ul>
 </nav>

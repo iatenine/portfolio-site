@@ -1,12 +1,13 @@
 div{
 	margin-top: 12em;
 	color: slategrey;
+	display: block;
 }
 
-div:not(:target){
+/* div:not(:target){
 	display: none;
 }
 
 div:target{
 	display: block;
-}
+} */

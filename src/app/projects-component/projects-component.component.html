@@ -1,3 +1,5 @@
+<div id = 'section-container'>
+	<i class="fa fa-code-fork fa-5x" id ='bg-element'></i>
 <div id = 'project-container' *ngFor = 'let project of getProjects()'>
 	<div  ngClass = {{project.class}}>
 		<h3> {{ project.title }} </h3>
@@ -17,4 +19,5 @@
 		</details>
 		<section><a href= "{{ project.link }}" target="_blank">View Project</a></section>
 	</div>
+</div>
 </div>

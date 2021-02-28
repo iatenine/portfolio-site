@@ -5,31 +5,24 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
-export class NavigationComponent implements OnInit {
+export class NavigationComponent{
 
   constructor() { }
 
   linkList = [
 	{
 		text: 'Projects',
-		href: '#projects',
+		href: '/projects',
 	},
 	{
 		text: 'Tech Stack',
-		href: '#stack',
+		href: '/stack',
 	},
 	{
 		text: 'Contact',
-		href: '#contact',
+		href: '/contact',
 	},
   ]
-  ngOnInit(): void {
-        if (window.location.hash) {
-            window.location.hash;
-        } else {
-            window.location.hash = '#projects';
-        };
-  }
 
   links(){
 	  return this.linkList;

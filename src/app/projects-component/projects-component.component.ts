@@ -13,10 +13,39 @@ export class ProjectsComponentComponent implements OnInit {
 			class: 'portfolio-site',
 			title: 'Portfolio Website',
 			subtitle: 'Recursion Warning',
-			description: `Simple full stack developer website designed to load quickly, 
-			work well with accessibility devices and function on nearly any browser`,
+			description: `Full stack developer portfolio website written using Angular and Bootstrap`,
 			link: './',
 			stack: [
+				{
+					name: 'HTML5'
+				},
+				{
+					name: 'Angular'
+				},
+				{
+					name: 'CSS',
+				},
+				{
+					name: 'Bootstrap',
+				},
+				{
+					name: 'Typescript'
+				}
+			]
+		},
+
+		{
+			class: 'regex-generator',
+			title: 'Regex Generator',
+			subtitle: 'Small Heroku app to generate regular expressions',
+			description: `Written as a personal challenge to grasp ngForms in Angular and later
+			to attempt to deploy an app to Heroku. The app can be viewed at https://regex-gen.herokuapp.com/
+			when dynos are available`,
+			link: 'https://github.com/iatenine/regex-generator',
+			stack: [
+				{
+					name: 'Heroku'
+				},
 				{
 					name: 'HTML5'
 				},

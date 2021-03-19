@@ -6,7 +6,7 @@ import { StackComponentComponent } from '../app/stack-component/stack-component.
 import { ContactComponentComponent } from '../app/contact-component/contact-component.component';
 
 const routes: Routes = [
-	{path: '', component: ContactComponentComponent},
+	{path: '', component: ProjectsComponentComponent},
   {path: 'contact', component: ContactComponentComponent},
   {path: 'stack', component: StackComponentComponent},
   {path: 'projects', component: ProjectsComponentComponent},
